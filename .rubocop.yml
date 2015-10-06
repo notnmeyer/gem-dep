@@ -1,0 +1,17 @@
+AllCops:
+  Exclude:
+    - Rakefile
+    - Berksfile
+    - metadata.rb
+    - vendor/**/*
+    - spec/**/*
+    - test/**/*
+    - .kitchen/**/*
+Documentation:
+  Enabled: false
+ClassAndModuleChildren:
+  Enabled: false
+TrailingComma:
+  EnforcedStyleForMultiline: comma
+StringLiterals:
+  EnforcedStyle: double_quotes
