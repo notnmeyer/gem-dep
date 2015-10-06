@@ -1,5 +1,0 @@
-image: nathwill/centos-chefdk:latest
-env:
-  - CI=true
-script:
-  - chef exec rake
